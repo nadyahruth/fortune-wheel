@@ -1,13 +1,18 @@
 .wheel{
     border-radius: 50%;
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
     position:relative;
     background-color: white;
+    border-right: 200px solid red;
+    border-top: 200px solid green;
+    border-left: 200px solid blue;
+    border-bottom: 200px solid yellow;
 }
+
 body{
     background-color: black;
 }
